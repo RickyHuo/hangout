@@ -19,7 +19,7 @@
   </Appenders>
   <Loggers>
     <Root level="${env:HO_LOG_LEVEL}">
-      <AppenderRef ref="Console"/>
+      <AppenderRef ref="RollingFile"/>
     </Root>
   </Loggers>
 </Configuration>
